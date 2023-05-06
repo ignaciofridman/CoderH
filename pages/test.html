@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barra de navegación</title>
+  <style>
+    /* Estilos para la barra de navegación */
+    .barra-navegacion {
+      background-color: #f8f8f8;
+      justify-content:space-around;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 10px;
+    }
+
+    /* Estilos para los elementos del menú */
+    .barra-navegacion ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .barra-navegacion li {
+      margin-right: 20px;
+    }
+
+    .barra-navegacion a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Estilos para la versión responsive de la barra de navegación */
+    @media (max-width: 768px) {
+      .barra-navegacion ul {
+        flex-direction: column;
+      }
+
+      .barra-navegacion li {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="barra-navegacion">
+    <ul>
+      <li><a href="#">Menú 1</a></li>
+      <li><a href="#">Menú 2</a></li>
+      <li><a href="#">Menú 3</a></li>
+      <li><a href="#">Menú 4</a></li>
+      <li><a href="#">Menú 5</a></li>
+    </ul>
+  </div>
+  <div style="height: 2000px;">
+    <!-- Contenido de la página -->
+  </div>
+</body>
+</html>
