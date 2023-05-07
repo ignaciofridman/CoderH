@@ -11,9 +11,9 @@
     justify-content: center;
 }
 
-main .btn {
+.btn {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 
 }
 
@@ -33,7 +33,7 @@ h1 {
 
     h1 {
         margin: 0px 100px; 
-        font-size: $font-large;
+        font-size: $font-xlarge;
     }
 }
 

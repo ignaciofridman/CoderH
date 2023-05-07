@@ -1,0 +1,32 @@
+.FootP {
+    margin: 100px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+.picturesabout img {
+    height: 300px;
+    margin: $space-Xsmall;
+    justify-content: center;
+
+
+}
+
+
+@media screen and (min-width: $tablet) {
+    .footP {
+        margin: 100px;
+    }
+
+
+    .picturesabout img {
+        height: 500px;
+        margin: 20px 0px 20px 100px;
+        gap: $space-small;
+        justify-content: center;
+    }
+}

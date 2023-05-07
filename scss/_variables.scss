@@ -67,3 +67,8 @@ $main-source: century gothic;
     display:flex;
     justify-content: center;
 }
+
+@mixin card-fonts {
+    font-size: $font-small;
+    
+}

@@ -60,6 +60,11 @@ h1 {
     font-size: $font-xlarge;
 }
 
+h2 {
+    text-align: center;
+    font-size: $font-large;
+    margin: $space-small;
+}
 p {
     font-size: $font-small;
     margin-top: $space-med;
@@ -105,3 +110,16 @@ footer {
         }
     }
 }    
+
+h2 {
+    font-size: $font-med;
+}
+
+@media screen and (min-width: $tablet) {
+
+    h2 {
+        margin: 0px 100px; 
+        font-size: $font-large;
+    }
+
+}
