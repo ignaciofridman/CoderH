@@ -1,0 +1,39 @@
+.picture img {
+    display: flex;
+    float: right;
+    justify-content: right;
+    max-width: 45%;
+}
+
+.intro {
+    margin: 100px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+main .btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    font-size: $font-large;
+}
+
+@media screen and (min-width: $tablet) {
+	.picture img {
+        height: 100vh; 
+        width: auto;
+    }
+    
+    .intro {
+        margin: 100px;
+    }
+
+    h1 {
+        margin: 0px 100px; 
+        font-size: $font-large;
+    }
+}
+
